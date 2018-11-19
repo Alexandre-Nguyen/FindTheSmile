@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Le Jeu des Visages</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/ico" href="images/ico/happy.png" />
+        <link rel="stylesheet" href="css/basics.css">
+        <script src="js/game.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+            setInterval("setChrono()", 1000);
+        </script>
+    </head>
+    <body onload="preloadPicture()">
+        <audio id="goodbeep" src="sons/son1.mp3"></audio>
+        <audio id="badbeep" src="sons/son2.mp3"></audio>
+        <h1>Le jeu des visages</h1>
+        <div class="scoreform">
+            <div id = "score"><strong>SCORE:</strong> 0</div>
+            <br />
+            <div id ='chrono'><strong>TEMPS:</strong> 00:00:00</div>
+            <br />
+            <div id='taverage'><strong>MOYENNE:</strong> 00:00:00</div>
+        </div>
+        <div class="form">
+            <div id ="zone_image"></div>
+            <button onclick='restart()'>Restart</button>
+            <p class="message"><a href="index.html">Retour au menu</a></p>
+        </div>    
+    </body>
+</html>

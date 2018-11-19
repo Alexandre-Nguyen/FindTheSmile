@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 oct. 2018, 15:38:12
+    Author     : 54077
+*/
+
+body {
+    background-image: url("../images/wallpaper/wallpaper7.jpg");
+    background-size: auto;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: -13px 13px 7px 0px rgba(51,51,51,0.82);
+}
+
+.inscriptionform {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    box-shadow: -13px 13px 7px 0px rgba(51,51,51,0.82);
+}
+
+.scoreform {
+    float: left;
+    width: 50%;
+    background: #FFFFFF;
+    max-width: 150px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#score, #chrono, #taverage {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.inscriptionforminfos input {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.inscriptionforminfos input[type=submit] {
+    text-transform: uppercase;
+    background: #F2A900;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.indexBlock input {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.inscriptionforminfos input[type=submit]:hover {
+    background: #CA8D00;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.form button {
+    text-transform: uppercase;
+    background: #F2A900;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #CA8D00;
+}
+
+.message a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2A900;
+    text-decoration: none;
+    margin: 20px 70px 0;
+    font-size: 15px;
+}
